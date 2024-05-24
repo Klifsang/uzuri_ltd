@@ -1,7 +1,7 @@
 import os
 
 from flask_migrate import Migrate
-from flask import Flask
+from flask import Flask, redirect, send_from_directory, url_for
 from flask_bcrypt import Bcrypt
 
 from flask_cors import CORS
@@ -31,7 +31,12 @@ from routes.client.routes import routes_bp
 
 
 
-app = Flask(__name__)
+app = Flask(
+    __name__,
+    static_url_path='',
+    static_folder='../client/dist',
+    template_folder='../client/dist'
+)
 
 flask_secret_key = secrets.token_urlsafe(16)
 jwt_secret_key = secrets.token_urlsafe(32)
@@ -49,6 +54,16 @@ migrate = Migrate(app, db)
 bcrypt = Bcrypt(app)
 
 
+@app.route('/', methods=['GET', 'POST'])
+def index():
+    return send_from_directory(app.static_folder, 'index.html')
+# Catch-all route for handling unavailable routes
+@app.errorhandler(404)
+def page_not_found(e):
+    return redirect(url_for('index'))
+
+
+
 app.register_blueprint(auth_bp)
 
 app.register_blueprint(admin_service_bp)
@@ -59,4 +74,4 @@ app.register_blueprint(routes_bp)
 
 
 if __name__ == '__main__':
-    app.run(debug=True,port=8080 )
+    app.run(debug=True,port=5000 )
