@@ -1,9 +1,9 @@
 from flask import Blueprint, make_response, jsonify, request
 from flask_restful import Api, Resource, abort
 
-from models.dbconfig import db
-from models.client import Client
-from models.category import Category
+from server.models.dbconfig import db
+from server.models.client import Client
+from server.models.category import Category
 
 admin_client_bp = Blueprint('admin_client', __name__)
 api = Api(admin_client_bp)

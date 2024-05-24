@@ -1,8 +1,8 @@
 from flask import Blueprint, make_response, jsonify, request
 from flask_restful import Api, Resource, abort
 
-from models.dbconfig import db
-from models.fee import Fee
+from server.models.dbconfig import db
+from server.models.fee import Fee
 
 fee_bp = Blueprint('fee', __name__)
 api = Api(fee_bp)

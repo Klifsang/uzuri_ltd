@@ -1,4 +1,4 @@
-from .dbconfig import db
+from server.models.dbconfig import db
 
 class TokenBlocklist(db.Model):
     __tablename__='tokenblocklist'

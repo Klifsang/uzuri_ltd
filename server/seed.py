@@ -1,16 +1,16 @@
 from random import choice as rc
 from faker import Faker
-from models.dbconfig import db
-from models.category import Category
-from models.client import Client
-from models.service import Service
-from models.drilling_service import Drilling_Service
-from models.depth_height_cost import DepthHeightCost
-from models.pump import Pump
-from models.pipe import Pipe
-from app import app
-from models.fee import Fee
-from models.invoice import Invoice
+from server.models.dbconfig import db
+from server.models.category import Category
+from server.models.client import Client
+from server.models.service import Service
+from server.models.drilling_service import Drilling_Service
+from server.models.depth_height_cost import DepthHeightCost
+from server.models.pump import Pump
+from server.models.pipe import Pipe
+from server.app import app
+from server.models.fee import Fee
+from server.models.invoice import Invoice
 
 fake = Faker()
 

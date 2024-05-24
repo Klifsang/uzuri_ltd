@@ -1,4 +1,4 @@
-from .dbconfig import db
+from server.models.dbconfig import db
 from datetime import date
 
 class Invoice(db.Model):

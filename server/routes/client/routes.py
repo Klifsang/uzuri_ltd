@@ -1,11 +1,11 @@
 from flask import Blueprint, make_response, jsonify, request
 from flask_restful import Api, Resource, abort
-from models.client import Client
-from models.category import Category
-from models.service import Service
+from server.models.client import Client
+from server.models.category import Category
+from server.models.service import Service
 # from server.models.invoice import Transaction
-from models.user import User
-from models.dbconfig import db
+from server.models.user import User
+from server.models.dbconfig import db
 
 
 routes_bp = Blueprint('routes', __name__)

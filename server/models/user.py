@@ -1,4 +1,4 @@
-from .dbconfig import db
+from server.models.dbconfig import db
 from sqlalchemy_serializer import SerializerMixin
 from sqlalchemy.orm import validates
 

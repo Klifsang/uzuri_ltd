@@ -1,8 +1,8 @@
-from .dbconfig import db
+from server.models.dbconfig import db
 from sqlalchemy_serializer import SerializerMixin
-from .depth_height_cost import DepthHeightCost
-from .pump import Pump
-from .service import Service
+from server.models.depth_height_cost import DepthHeightCost
+from server.models.pump import Pump
+from server.models.service import Service
 
 class Pump_Service(db.Model, SerializerMixin):
     __tablename__ = 'pumpservices'

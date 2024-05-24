@@ -3,20 +3,20 @@ from flask import Blueprint, make_response, jsonify, request
 from flask_restful import Api, Resource, abort
 # from flask_jwt_extended import jwt_required, get_jwt_identity
 
-from models.service import Service
-from models.dbconfig import db
-from models.drilling_service import Drilling_Service
-from models.plumbing_service import Plumbing_Service
-from models.tank import Tank
-from models.pump_service import Pump_Service
-from models.category import Category
-from models.invoice import Invoice
-from models.user import User
-from models.pump import Pump
-from models.depth_height_cost import DepthHeightCost
-from models.pipe import Pipe
-from models.fee import Fee
-from models.client import Client
+from server.models.service import Service
+from server.models.dbconfig import db
+from server.models.drilling_service import Drilling_Service
+from server.models.plumbing_service import Plumbing_Service
+from server.models.tank import Tank
+from server.models.pump_service import Pump_Service
+from server.models.category import Category
+from server.models.invoice import Invoice
+from server.models.user import User
+from server.models.pump import Pump
+from server.models.depth_height_cost import DepthHeightCost
+from server.models.pipe import Pipe
+from server.models.fee import Fee
+from server.models.client import Client
 
 admin_service_bp = Blueprint('admin_service', __name__)
 api = Api(admin_service_bp)

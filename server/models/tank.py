@@ -1,5 +1,5 @@
 from sqlalchemy_serializer import SerializerMixin
-from .dbconfig import db
+from server.models.dbconfig import db
 
 class Tank(db.Model, SerializerMixin):
     __tablename__ = 'tanks'

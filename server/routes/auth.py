@@ -5,9 +5,9 @@ from werkzeug.security import generate_password_hash, check_password_hash
 import datetime
 import uuid
 
-from models.dbconfig import db
-from models.user import User
-from models.token_blocklist import TokenBlocklist
+from server.models.dbconfig import db
+from server.models.user import User
+from server.models.token_blocklist import TokenBlocklist
 
 auth_bp = Blueprint('auth', __name__)
 jwt = JWTManager()

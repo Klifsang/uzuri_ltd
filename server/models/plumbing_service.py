@@ -1,4 +1,4 @@
-from .dbconfig import db
+from server.models.dbconfig import db
 from sqlalchemy_serializer import SerializerMixin
 
 class Plumbing_Service(db.Model,SerializerMixin):

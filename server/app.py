@@ -20,13 +20,13 @@ import datetime
 # from models.transaction import Transaction
 # from models.tank import Tank
 
-from models.dbconfig import db
+from server.models.dbconfig import db
 
-from routes.auth import auth_bp, jwt
-from routes.admin.service_route import admin_service_bp
-from routes.admin.client_routes import admin_client_bp
-from routes.admin.category_route import admin_category_bp
-from routes.client.routes import routes_bp
+from server.routes.auth import auth_bp, jwt
+from server.routes.admin.service_route import admin_service_bp
+from server.routes.admin.client_routes import admin_client_bp
+from server.routes.admin.category_route import admin_category_bp
+from server.routes.client.routes import routes_bp
 
 
 

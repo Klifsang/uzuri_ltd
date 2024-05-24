@@ -1,8 +1,8 @@
 from flask import Blueprint, make_response, jsonify, request
 from flask_restful import Api, Resource, abort
 
-from models.dbconfig import db
-from models.category import Category
+from server.models.dbconfig import db
+from server.models.category import Category
 
 admin_category_bp = Blueprint('admin_category', __name__)
 api = Api(admin_category_bp)

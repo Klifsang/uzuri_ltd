@@ -2,8 +2,8 @@ from sqlalchemy_serializer import SerializerMixin
 from sqlalchemy.ext.associationproxy import association_proxy
 from sqlalchemy.orm import validates
 from sqlalchemy import UniqueConstraint
-from .client_service import Client_Service
-from .dbconfig import db
+from server.models.client_service import Client_Service
+from server.models.dbconfig import db
 
 class Client(db.Model, SerializerMixin):
     __tablename__ = 'clients'

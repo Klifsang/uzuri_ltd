@@ -1,12 +1,12 @@
-from models.dbconfig import db
-from models.plumbing_service import Plumbing_Service
-from models.pump_service import Pump_Service
-from models.tank import Tank
-from models.drilling_service import Drilling_Service
-from .depth_height_cost import DepthHeightCost
-from .pump import Pump
-from models.pipe import Pipe
-from models.client import Client
+from server.models.dbconfig import db
+from server.models.plumbing_service import Plumbing_Service
+from server.models.pump_service import Pump_Service
+from server.models.tank import Tank
+from server.models.drilling_service import Drilling_Service
+from server.models.depth_height_cost import DepthHeightCost
+from server.models.pump import Pump
+from server.models.pipe import Pipe
+from server.models.client import Client
 
 class Fee(db.Model):
     __tablename__ = 'fees'
