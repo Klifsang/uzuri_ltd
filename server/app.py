@@ -54,13 +54,14 @@ migrate = Migrate(app, db)
 bcrypt = Bcrypt(app)
 
 
-@app.route('/', methods=['GET', 'POST'])
-def index():
+from flask import Flask, send_from_directory, render_template
+
+app = Flask(__name__)
+
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def index(path):
     return send_from_directory(app.static_folder, 'index.html')
-# Catch-all route for handling unavailable routes
-@app.errorhandler(404)
-def page_not_found(e):
-    return redirect(url_for('index'))
 
 
 
