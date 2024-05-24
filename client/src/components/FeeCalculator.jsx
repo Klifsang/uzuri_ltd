@@ -27,7 +27,7 @@ const FeeCalculator = ({ theme_styles }) => {
   useEffect(() => {
     const fetch_clients = async () => {
       try {
-        const response = await fetch("http://127.0.0.1:5000/api/admin/routes/clients");
+        const response = await fetch("/api/admin/routes/clients");
         if (!response.ok) {
           throw new Error(`Error fetching clients: ${response.statusText}`);
         }
@@ -43,7 +43,7 @@ const FeeCalculator = ({ theme_styles }) => {
   useEffect(() => {
     const fetch_drilling_services = async () => {
       try {
-        const response = await fetch("http://127.0.0.1:5000/api/admin/routes/drillingservices");
+        const response = await fetch("/api/admin/routes/drillingservices");
         if (!response.ok) {
           throw new Error(`Error fetching drilling services: ${response.statusText}`);
         }
@@ -59,7 +59,7 @@ const FeeCalculator = ({ theme_styles }) => {
   useEffect(() => {
     const fetch_pump_types = async () => {
       try {
-        const response = await fetch("http://127.0.0.1:5000/api/admin/routes/pumps");
+        const response = await fetch("/api/admin/routes/pumps");
         if (!response.ok) {
           throw new Error(`Error fetching pump types: ${response.statusText}`);
         }
@@ -75,7 +75,7 @@ const FeeCalculator = ({ theme_styles }) => {
   useEffect(() => {
     const fetch_pipe_types = async () => {
       try {
-        const response = await fetch("http://127.0.0.1:5000/api/admin/routes/pipes");
+        const response = await fetch("/api/admin/routes/pipes");
         if (!response.ok) {
           throw new Error(`Error fetching pipe types: ${response.statusText}`);
         }
@@ -149,7 +149,7 @@ const FeeCalculator = ({ theme_styles }) => {
       tank_capacity: parseInt(tank_capacity)
     };
 
-    fetch("http://127.0.0.1:5000/api/admin/routes/fees", {
+    fetch("/api/admin/routes/fees", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -193,7 +193,7 @@ const FeeCalculator = ({ theme_styles }) => {
       total_payable,
     };
 
-    fetch("http://127.0.0.1:5000/api/admin/routes/fees", {
+    fetch("/api/admin/routes/fees", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

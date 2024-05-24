@@ -14,7 +14,7 @@ const Report = ({ theme_styles }) => {
   useEffect(() => {
     const fetch_clients = async () => {
       try {
-        const response = await fetch('http://127.0.0.1:5000/api/admin/routes/clients');
+        const response = await fetch('/api/admin/routes/clients');
         const data = await response.json();
         set_clients(data);
         set_filtered_clients(data);
@@ -25,7 +25,7 @@ const Report = ({ theme_styles }) => {
 
     const fetch_invoices = async () => {
       try {
-        const response = await fetch('http://127.0.0.1:5000/api/admin/routes/fees');
+        const response = await fetch('/api/admin/routes/fees');
         const data = await response.json();
         set_invoices(data);
         set_filtered_invoices(data);

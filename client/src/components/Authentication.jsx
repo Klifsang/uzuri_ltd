@@ -23,7 +23,7 @@ function Login({ switchForm, ThemeStyles }) {
     }),
     onSubmit: (values, { setSubmitting }) => {
       console.log(values);
-      fetch("http://127.0.0.1:5000/api/auth/admin_login", {
+      fetch("/api/auth/admin_login", {
         method: "POST",
                 headers: {
           "Content-Type": "application/json",
@@ -159,7 +159,7 @@ function Register({ switchForm, ThemeStyles }) {
     }),
     onSubmit: (values, { setSubmitting }) => {
       console.log(values);
-      fetch("http://127.0.0.1:5000/api/auth/admin_signup", {
+      fetch("/api/auth/admin_signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

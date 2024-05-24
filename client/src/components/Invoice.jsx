@@ -319,7 +319,7 @@ const Invoice = ({ ThemeStyles }) => {
   };
 
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/api/admin/routes/clients")
+    fetch("/api/admin/routes/clients")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
@@ -337,7 +337,7 @@ const Invoice = ({ ThemeStyles }) => {
   }, []);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/api/admin/routes/fees")
+    fetch("/api/admin/routes/fees")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
@@ -355,28 +355,28 @@ const Invoice = ({ ThemeStyles }) => {
   }, []);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/api/admin/routes/drillingservices")
+    fetch("/api/admin/routes/drillingservices")
       .then((response) => response.json())
       .then((data) => setDrillingServices(data))
       .catch((error) => setError(error.toString()));
   }, []);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/api/admin/routes/pumpservices")
+    fetch("/api/admin/routes/pumpservices")
       .then((response) => response.json())
       .then((data) => setPumpTypes(data))
       .catch((error) => setError(error.toString()));
   }, []);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/api/admin/routes/tank")
+    fetch("/api/admin/routes/tank")
       .then((response) => response.json())
       .then((data) => setPipeTypes(data))
       .catch((error) => setError(error.toString()));
   }, []);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/api/admin/routes/categories")
+    fetch("/api/admin/routes/categories")
       .then((response) => response.json())
       .then((data) => setCategories(data))
       .catch((error) => setError(error.toString()));

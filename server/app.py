@@ -41,7 +41,7 @@ app = Flask(
 flask_secret_key = secrets.token_urlsafe(16)
 jwt_secret_key = secrets.token_urlsafe(32)
 print(jwt_secret_key)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///app.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:qyrEpxnWYKEOOAsEIXQiFsTDZhZpCzzw@viaduct.proxy.rlwy.net:23202/railway" #'sqlite:///app.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SECRET_KEY'] = flask_secret_key
 app.config['JWT_SECRET_KEY'] = jwt_secret_key

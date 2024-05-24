@@ -36,7 +36,7 @@ const RegisterClient = ({ ThemeStyles }) => {
     onSubmit: (values, { setSubmitting }) => {
       console.log(values);
 
-      fetch("http://127.0.0.1:5000/api/admin/routes/clients", {
+      fetch("/api/admin/routes/clients", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
