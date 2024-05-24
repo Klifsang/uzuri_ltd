@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# React + Vite
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project UZURI LTD Dashboard README
 
-## Available Scripts
+## Overview
+Uzuri is a multifaceted company providing specialized water drilling services for Industrial, Commercial, and Domestic purposes. In addition to drilling, Uzuri offers plumbing services, pump maintenance, and tank installation. This dashboard application is designed to manage and compute various aspects of the services provided by Uzuri, including financial calculations, reporting, and client communication.
 
-In the project directory, you can run:
+## Features
+- **Data Visualization**: The UZURI dashboard utilizes tables to present company data and services effectively and neatly
+- **Authentication**: The dashboard also Implements secure authentication for UZURI staff user access. 
+- **Error Handling**: Handle errors gracefully and provide meaningful feedback to users.
+- **Routing**: The setup provides for proper linking between different pages within the dashboard that makes the experience seemles.
+- **Responsive Design**: The dashboard adapts seamlessly to different screen sizes, ensuring a consistent experience across devices.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
+1. **Clone the Repository**: Start by cloning this repository to your local machine.
+2. **Install Dependencies**: Run `npm install` or `yarn install` to install the necessary packages.
+3. **Configuration**: Customize the configuration files (if needed) to connect to your backend services or APIs.
+4. **Run Locally**: Use `npm run dev` or `yarn run dev` to launch the development server and view the dashboard in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Components
+The dashboard includes the following components:
 
-### `npm test`
+1. **Dashboard Home**: An overview of key metrics and data visualizations for UZURI LTD.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Team Members
+This project was done by group F members who were both very committed and are listed below: 
+1. Naomi as the Scram Master
+2. Samuel as a commited member
+3. Jane as a commited member
 
-### `npm run build`
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## License
+This project is licensed under the MIT License. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+- Inspired by the shear will to get really good and one day get paid. 
+- We would like to acknowlede ourselves and thank ourselves. 
+- Thanks to the [TM George Okumu] for his amazing support.

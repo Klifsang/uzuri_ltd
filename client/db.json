@@ -1,0 +1,395 @@
+{
+  "users": [
+    {
+      "id": "2a9d",
+      "username": "Jumah",
+      "email": "jumaomoding@gmail.com",
+      "password": "uzuri2024",
+      "confirmPassword": "uzuri2024",
+      "role": "staff"
+    },
+    {
+      "id": "6b64",
+      "username": "Joseph",
+      "email": "js@moringa.com",
+      "password": "uzuri2024",
+      "confirmPassword": "uzuri2024",
+      "role": "client"
+    },
+    {
+      "id": "533f",
+      "username": "Naomi Mogi",
+      "email": "naomi1@gmail.com",
+      "password": "naomi2024",
+      "confirmPassword": "naomi2024",
+      "role": "staff"
+    },
+    {
+      "id": "f37c",
+      "username": "Jane Rotich",
+      "email": "jane1@yahoo.com",
+      "password": "uzuri2024",
+      "confirmPassword": "uzuri2024"
+    },
+    {
+      "id": "93e3",
+      "username": "Diana Tuei",
+      "email": "tuei@gmail.com",
+      "password": "uzuri2024",
+      "confirmPassword": "uzuri2024"
+    },
+    {
+      "id": "f5f7",
+      "username": "Bill Shaddy",
+      "email": "bill.shadrack@gmail.com",
+      "password": "uzuri2024",
+      "confirmPassword": "uzuri2024"
+    },
+    {
+      "id": "efac"
+    }
+  ],
+  "clients": [
+    {
+      "id": "1a17",
+      "name": "Samuel Omoding",
+      "address": "jumaomoding@gmail.com",
+      "telephone": "0707195202",
+      "boreholeLocations": "Nambuku, Buisia ",
+      "otherDetails": "Borehole maintenance and serving inquiry"
+    },
+    {
+      "id": "0717",
+      "name": "Shadrack Omoding",
+      "address": "bill.shadrack@gmail.com",
+      "telephone": "0712638871",
+      "boreholeLocations": "Mamboleo, Kisumu",
+      "description": "Servicing borehole",
+      "otherDetails": "nill"
+    },
+    {
+      "id": "2287",
+      "name": "Peter Mutati Matuku",
+      "address": "mm@gmail.com",
+      "telephone": "0707485202",
+      "boreholeLocations": "Machakos",
+      "clientCategories": "",
+      "description": "",
+      "otherDetails": "",
+      "clientCategory": "Domestic"
+    },
+    {
+      "id": "a877",
+      "name": "Seth Panyako",
+      "address": "seth123@yahoo.com",
+      "telephone": "0789856472",
+      "clientCategory": "Domestic",
+      "boreholeLocations": "Kakamega",
+      "category": "Domestic"
+    },
+    {
+      "id": "8145",
+      "name": "Keith Omondi",
+      "address": "keith.o@gmail.com",
+      "telephone": "0112345678",
+      "clientCategory": "",
+      "boreholeLocations": "Mombasa Pipeline",
+      "category": "Industrial"
+    },
+    {
+      "id": "e567",
+      "name": "Jane Rotich",
+      "address": "jrotich@gmail.com",
+      "telephone": "4657892845",
+      "clientCategory": "Industrial",
+      "boreholeLocations": "Pangani"
+    },
+    {
+      "id": "5894",
+      "name": "Christopher Opondo",
+      "address": "opondo77chris@gmail.com",
+      "telephone": "0726343350",
+      "clientCategory": "Commercial",
+      "boreholeLocations": "BP"
+    },
+    {
+      "id": "e5f2",
+      "name": "Samuel Omoding",
+      "address": "jumaomoding@gmail.com",
+      "telephone": "0707195202",
+      "clientCategory": "Commercial",
+      "boreholeLocations": "Villa"
+    },
+    {
+      "id": "02a4",
+      "name": "Samuel Omoding",
+      "address": "jumaomoding@gmail.com",
+      "telephone": "0707195202",
+      "clientCategory": "Commercial",
+      "boreholeLocations": "Villa"
+    },
+    {
+      "id": "1a16",
+      "name": "Samuel Omoding",
+      "address": "jumaomoding@gmail.com",
+      "telephone": "0707195202",
+      "clientCategory": "Commercial",
+      "boreholeLocations": "Villa"
+    },
+    {
+      "id": "0285",
+      "name": "Samuel Omoding",
+      "address": "jumaomoding@gmail.com",
+      "telephone": "0707195202",
+      "clientCategory": "Commercial",
+      "boreholeLocations": "Villa"
+    },
+    {
+      "id": "108b",
+      "name": "Shadrack Omoding",
+      "address": "bill.shadrack@gmail.com",
+      "telephone": "0712638871",
+      "clientCategory": "Domestic",
+      "boreholeLocations": "Tasia"
+    },
+    {
+      "id": "3bf9",
+      "name": "Christopher Opondo",
+      "address": "opondo77chris@gmail.com",
+      "telephone": "0726343350",
+      "clientCategory": "Domestic",
+      "boreholeLocations": "Kitale"
+    },
+    {
+      "id": "b57a",
+      "name": "Anna Okupoleui",
+      "address": "anna@yahoo.com",
+      "telephone": "0726343350",
+      "clientCategory": "Domestic",
+      "boreholeLocations": "Baringo"
+    },
+    {
+      "id": "d8e3",
+      "name": "Paul Mwangi",
+      "address": "pm123@gmail.com",
+      "telephone": "089899390",
+      "clientCategory": "Industrial",
+      "boreholeLocations": "Jinja"
+    },
+    {
+      "id": "054e",
+      "name": "Shadrack Omoding",
+      "address": "bill.shadrack@gmail.com",
+      "telephone": "0712638871",
+      "clientCategory": "Commercial",
+      "boreholeLocations": "Mukono"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "2bf9",
+      "clientName": "Samuel Omoding",
+      "clientEmail": "jumaomoding@gmail.com",
+      "clientCategory": "Domestic",
+      "invoiceNumber": "1",
+      "date": "2024-05-16",
+      "services": [
+        "Symmetric Drilling",
+        "Plumbing",
+        "Pump Maintenance"
+      ],
+      "totalCostBeforeTax": 147000,
+      "taxAmount": 23520,
+      "totalCostAfterTax": 123480
+    },
+    {
+      "id": "32be",
+      "clientName": "Samuel Omoding",
+      "clientEmail": "jumaomoding@gmail.com",
+      "clientCategory": "Industrial",
+      "invoiceNumber": "3",
+      "date": "2024-05-17",
+      "drillingServices": [
+        "Core Drilling"
+      ],
+      "pumpTypes": [
+        "Solar Pump"
+      ],
+      "otherServices": [
+        "Plumbing"
+      ],
+      "totalCostBeforeTax": 370000,
+      "taxAmount": 59200,
+      "totalCostAfterTax": 310800
+    }
+  ],
+  "fees": [
+    {
+      "id": "9701",
+      "clientType": "Industrial",
+      "drillingServices": [
+        "Symmetric Drilling"
+      ],
+      "pumpTypes": [
+        "Submersible Electric Pump"
+      ],
+      "depth": "200",
+      "height": "240",
+      "pipeTypes": [
+        "ABS - Acrylonitrile Butadiene Styrene"
+      ],
+      "pipeDiameter": "20",
+      "pipeLength": "230",
+      "numberOfOutlets": "4",
+      "otherServices": [
+        "Pump Maintenance"
+      ],
+      "tankCapacity": "10000",
+      "totalCost": 15243560,
+      "taxAmount": 2102560
+    },
+    {
+      "id": "5a04",
+      "client_id": "13",
+      "clientType": "",
+      "drillingServices": [
+        "Core Drilling"
+      ],
+      "pumpTypes": [
+        "Submersible Electric Pump"
+      ],
+      "depth": "200",
+      "height": "230",
+      "pipeTypes": [
+        "PEX - Cross-linked Polyethylene"
+      ],
+      "pipeDiameter": "35",
+      "pipeLength": "2300",
+      "numberOfOutlets": "4",
+      "otherServices": [
+        "Pump Maintenance"
+      ],
+      "tankCapacity": "10000",
+      "totalCost": 15732152,
+      "taxAmount": 2169952
+    },
+    {
+      "id": "bb2e",
+      "client_id": "15",
+      "clientCategory": {
+        "category": "Domestic",
+        "surveyFee": 7000,
+        "localAuthorityFee": 10000
+      },
+      "drillingServices": [
+        "Geo-technical Drilling"
+      ],
+      "pumpTypes": [
+        "Solar Pump"
+      ],
+      "pumpDepth": "344",
+      "pumpHeight": "300",
+      "pipeTypes": [
+        "PVC - Polyvinyl Chloride",
+        "Copper",
+        "Cast Iron"
+      ],
+      "pipeDiameter": "34",
+      "pipeLength": "2300",
+      "numberOfOutlets": "4",
+      "otherServices": [
+        "Pump Maintenance"
+      ],
+      "tankCapacity": "15000",
+      "totalCost": 23627576,
+      "taxAmount": 3258976
+    },
+    {
+      "id": "cf5e",
+      "client_id": "14",
+      "clientCategory": {
+        "category": "Domestic",
+        "surveyFee": 7000,
+        "localAuthorityFee": 10000
+      },
+      "drillingServices": [
+        "Core Drilling"
+      ],
+      "pumpTypes": [
+        "Hand Pump"
+      ],
+      "pumpDepth": "500",
+      "pumpHeight": "400",
+      "pipeTypes": [
+        "ABS - Acrylonitrile Butadiene Styrene"
+      ],
+      "pipeDiameter": "20",
+      "pipeLength": "3500",
+      "numberOfOutlets": "1",
+      "otherServices": [
+        "Pump Maintenance"
+      ],
+      "tankCapacity": "",
+      "totalCost": 3763040,
+      "taxAmount": 519040
+    },
+    {
+      "id": "9258",
+      "client_id": "13",
+      "clientCategory": {
+        "category": "Industrial",
+        "surveyFee": 20000,
+        "localAuthorityFee": 50000
+      },
+      "drillingServices": [],
+      "pumpTypes": [
+        "Submersible Electric Pump"
+      ],
+      "pumpDepth": "340",
+      "pumpHeight": "400",
+      "pipeTypes": [
+        "PVC - Polyvinyl Chloride",
+        "ABS - Acrylonitrile Butadiene Styrene",
+        "Cast Iron"
+      ],
+      "pipeDiameter": "34",
+      "pipeLength": "2300",
+      "numberOfOutlets": "2",
+      "otherServices": [
+        "Pump Maintenance"
+      ],
+      "tankCapacity": "10000",
+      "totalCost": 16819420,
+      "taxAmount": 2319920
+    },
+    {
+      "id": "ab9c",
+      "client_id": "15",
+      "clientCategory": {
+        "category": "Domestic",
+        "surveyFee": 7000,
+        "localAuthorityFee": 10000
+      },
+      "drillingServices": [
+        "Symmetric Drilling"
+      ],
+      "pumpTypes": [
+        "Submersible Electric Pump"
+      ],
+      "pumpDepth": "340",
+      "pumpHeight": "200",
+      "pipeTypes": [
+        "PVC - Polyvinyl Chloride"
+      ],
+      "pipeDiameter": "34",
+      "pipeLength": "2000",
+      "numberOfOutlets": "2",
+      "otherServices": [
+        "Pump Maintenance"
+      ],
+      "tankCapacity": "",
+      "totalCost": 2101920,
+      "taxAmount": 289920
+    }
+  ]
+}
