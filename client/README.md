@@ -29,6 +29,8 @@ This project was done by group F members who were both very committed and are li
 1. Naomi as the Scram Master
 2. Samuel as a commited member
 3. Jane as a commited member
+4. Diana as a commited member
+5. Koech as a commited member
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
